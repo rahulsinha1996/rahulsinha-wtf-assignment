@@ -1,0 +1,21 @@
+{
+  "name": "wtf-backend",
+  "version": "1.0.0",
+  "description": "This is the backend which is built in wtf placement ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rahul Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "nodemon": "^2.0.19",
+    "react-uuid": "^1.0.3"
+  }
+}
