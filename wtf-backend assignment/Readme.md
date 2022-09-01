@@ -1,4 +1,5 @@
-base url should will be anything after deployment
+base url should will be anything after deployment.
+base url :- https://sleepy-chamber-28551.herokuapp.com/
 
 -users/register
 :- In this api we can register user by giving in body data
