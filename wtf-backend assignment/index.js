@@ -6,8 +6,9 @@ const server=http.createServer(app)
 const cors=require('cors')
 const userRoute=require('./route/user')
 const bodyParser=require('body-parser')
+require('dotenv').config()
 
-mongoose.connect('mongodb+srv://wtf-web-backend:Vn6m2RDgv3IaD7kr@cluster0.iji3kbr.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://wtf-web-backend:Vn6m2RDgv3IaD7kr@cluster0.iji3kbr.mongodb.net/wtfdatabase?retryWrites=true&w=majority')
 
 
 
@@ -26,7 +27,7 @@ app.use(bodyParser.json())
 
 app.use("/users", userRoute)
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT
 
 app.get("/",(req,res)=>{
     res.send("Server is running.");
