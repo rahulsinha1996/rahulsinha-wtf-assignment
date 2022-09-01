@@ -7,7 +7,7 @@ const cors=require('cors')
 const userRoute=require('./route/user')
 const bodyParser=require('body-parser')
 
-mongoose.connect('mongodb+srv://wtf-web-backend:Vn6m2RDgv3IaD7kr@cluster0.iji3kbr.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://wtf-web-backend:Vn6m2RDgv3IaD7kr@cluster0.iji3kbr.mongodb.net/wtfdatabse?retryWrites=true&w=majority')
 
 
 
