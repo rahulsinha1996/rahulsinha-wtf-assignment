@@ -1,0 +1,92 @@
+.main{
+    padding: 20px;
+   background-image:url("https://raw.githubusercontent.com/rahulsinha1996/images/main/resources/banner.png");
+   height: 100%;
+   width: 100%;
+   color: white;
+   align-items: center;
+   display: flex;
+   gap:30px;
+   justify-content: center;
+   
+   
+   
+}
+.formLarge{
+    display: flex;
+    gap:30px;
+    width: 700px;
+    height: 500px;
+    background-color: rgba(250, 245, 245, 0.1);
+    border-radius: 20px;
+    padding:20px
+}
+.emailInput{
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(92, 85, 85, 0.1);
+    color: white;
+}
+
+.passwordInput{
+    margin-top: 20px;
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(92, 85, 85, 0.1);
+    color: white;
+}
+.loginBtn{
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background-color:red;
+    color: white;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    background-color: #ce4848;
+    animation: alternate;
+}
+
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.btnToggle{
+    width: 300px;
+    height: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid red;
+    background-color:rgba(92, 85, 85, 0.1);
+    color: white;
+}
+.toggleBtn{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.img1{
+    background-image: url('../resources/img1.png');
+    height: 100px;
+    width: 100px;
+}
